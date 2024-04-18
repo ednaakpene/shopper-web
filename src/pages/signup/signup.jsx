@@ -38,7 +38,7 @@ const Signup = () => {
                 <input
                   // onChange={(e) => setPassword(e.target.value)}
                   className="p-3 my-2 bg-white-700 text-black rouded"
-                  type=" Confirm password"
+                  type="password"
                   placeholder="Confirm Password"
                   autoComplete="current-password"
                 />
