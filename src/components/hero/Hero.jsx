@@ -5,7 +5,7 @@ const Hero = () => {
     <div
       className="hero min-h-screen flex items-center"
       style={{
-        background: `url(${require("../../assets/hero.png")})`,
+        background: `url(${require("../../assets/hero.jpeg")})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "right",
