@@ -6,6 +6,7 @@ import Checkout from "./pages/Checkout/checkout";
 import Signup from "./pages/signup/signup";
 import Signin from "./pages/signin/signin";
 import Productdetail from "./pages/Product/Productdetail";
+import Shop from "./pages/shoppingpage/Shop";
 
 const router = createBrowserRouter([
   { path: "/", element: <Landingpage /> },
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   { path: "/signup", element: <Signup /> },
   { path: "/signin", element: <Signin /> },
   { path: "/productdetail", element: <Productdetail /> },
+  { path: "/shop", element: <Shop /> },
 ]);
 const App = () => {
   return <RouterProvider router={router} />;
