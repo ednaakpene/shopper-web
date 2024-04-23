@@ -7,6 +7,10 @@ import Signup from "./pages/signup/signup";
 import Signin from "./pages/signin/signin";
 import Productdetail from "./pages/Product/Productdetail";
 import Shop from "./pages/shoppingpage/Shop";
+import Jewelry from "./pages/Jewelry/Jewelry";
+import Electronics from "./pages/electronics/Electronics";
+import Women from "./pages/womenswear/women";
+import Men from "./pages/mens wear/Men";
 
 const router = createBrowserRouter([
   { path: "/", element: <Landingpage /> },
@@ -16,6 +20,10 @@ const router = createBrowserRouter([
   { path: "/signin", element: <Signin /> },
   { path: "/productdetail", element: <Productdetail /> },
   { path: "/shop", element: <Shop /> },
+  {path: "/shop/jewelry", element: <Jewelry/>},
+  {path: "/shop/electronics",element: <Electronics/>},
+  {path: "/shop/womenswear", element: <Women/>},
+  {path: "/shop/menswear", element: <Men/>}
 ]);
 const App = () => {
   return <RouterProvider router={router} />;

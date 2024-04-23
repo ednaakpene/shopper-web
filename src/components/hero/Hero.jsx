@@ -13,7 +13,7 @@ const Hero = () => {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content flex flex-col justify-center items-center text-neutral-content h-full">
-        <div className="max-w-md">
+        <div className="max-w-md ml-12">
           <p
             className="font-bold ml-4 whitespace-nowrap"
             style={{ fontSize: "3.2rem", color: "white" }}
