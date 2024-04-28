@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, User2Icon } from 'lucide-react';
+import { Search, ShoppingCart, User2Icon } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 
 const Navshop = () => {
@@ -31,6 +31,10 @@ const Navshop = () => {
           </NavLink>
         </div>
         <div className="relative">
+        <NavLink to="/cartpage">
+        <ShoppingCart/>
+
+           </NavLink>
           <button
             onClick={toggleDropdown}
             className="flex items-center justify-center text-gray-600"
