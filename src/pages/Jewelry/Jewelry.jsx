@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { apiGetJewelry } from '../../services/products.sercices';
+
 
 const Jewelry = () => {
   const [jewelries, setJewelry] = useState([]);
@@ -17,11 +18,11 @@ const Jewelry = () => {
       console.error("Error fetching jewelry", error);
     }
   };
-
   const addToCart = (jewelry) => {
-    setCart([...cart, jewelry]);
+    setCart([...cart, { ...jewelry, quantity: 1 }]);
     alert(`${jewelry.title} added to cart!`);
   };
+  
 
   const cardItem = (jewelry) => {
     return (

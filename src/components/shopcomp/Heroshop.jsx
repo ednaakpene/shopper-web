@@ -1,8 +1,7 @@
 import React from 'react';
 import firstImg from "../../assets/headphones-displayed-against-dark-background.jpg";
-import secondImg from "../../assets/shirt-mockup-concept-with-plain-clothing.jpg";
-import thirdImg from "../../assets/teenage-girl-black-top-flannel-shirt-youth-apparel-grunge-fashion-shoot.jpg";
-import fourthImg from "../../assets/model-career-kit-still-life.jpg";
+import secondImg from "../../assets/dark-haired-woman-with-red-lipstick-smiles-leans-stand-with-clothes-holds-package-pink-background.jpg";
+import thirdImg from "../../assets/pile-winter-sweaters-with-pine-cones.jpg";
 
 const Heroshop = () => {
   return (
@@ -12,7 +11,6 @@ const Heroshop = () => {
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -24,9 +22,7 @@ const Heroshop = () => {
           <div className="carousel-item">
             <img src={thirdImg} className="d-block w-100" alt="ladiesdress" height="500px" />
           </div>
-          <div className="carousel-item">
-            <img src={fourthImg} className="d-block w-100" alt="shirt" height="500px" />
-          </div>
+          
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -38,9 +38,9 @@ text-white"
                   autoComplete="current-password"
                 />
 
-                <button className="bg-purple-600 py-3 my-6 rounded font-bold">
+                <a href="/shop" className="bg-purple-600 py-3 my-6 rounded text-center font-bold" >
                   Sign In
-                </button>
+                </a>
                 <div
                   className="flex justify-between items-center text-sm
 text-gray-600"

@@ -2,14 +2,14 @@ import React from "react";
 import Productcard from "../../components/shopcomp/Productcard";
 import Heroshop from "../../components/shopcomp/Heroshop";
 import Navshop from "../../components/shopcomp/Navshop";
-import ShopContextProvider from "../../context/Shopcontext";
 
 const Shop = () => {
   return (
     <>
+        <Navshop/>
+
     <Heroshop/>
     <Productcard/>
-    <Navshop/>
 
     </>
 )
